@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+
+    <style>
+      canvas {
+        height: 800px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="mainContent" class="shadow p-3 mb-5 bg-body rounded">
+      <nav>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+          <button
+            class="nav-link active"
+            id="nav-home-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-home"
+            type="button"
+            role="tab"
+            aria-controls="nav-home"
+            aria-selected="true"
+          >
+            QRcode
+          </button>
+          <button
+            class="nav-link"
+            id="nav-profile-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-profile"
+            type="button"
+            role="tab"
+            aria-controls="nav-profile"
+            aria-selected="false"
+          >
+            import excel
+          </button>
+        </div>
+      </nav>
+      <div class="tab-content" id="nav-tabContent">
+        <div
+          class="tab-pane fade show active"
+          id="nav-home"
+          role="tabpanel"
+          aria-labelledby="nav-home-tab"
+          tabindex="0"
+        >
+          <textarea
+            name="originalCode"
+            id="originalCode"
+            cols="150"
+            rows="4"
+          ></textarea>
+
+          <canvas id="canvas"></canvas>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="nav-profile"
+          role="tabpanel"
+          aria-labelledby="nav-profile-tab"
+          tabindex="0"
+        >
+          <div id="excelSection">
+            <label for="spreadsheetUpload" class="form-label"
+              >upload your file</label
+            >
+            <input
+              class="form-control form-control-lg"
+              id="spreadsheetUpload"
+              type="file"
+            />
+
+            <!-- <div class="question">
+              <label class="leftLabel" for="secretKey">Secret Key: </label
+              ><input type="text" name="secretKey" id="secretKeyTextbox" />
+            </div> -->
+
+            <div class="question">
+              <label class="leftLabel" for="encryptedTicketTextbox">Encrypted Ticket#: </label
+              ><input type="text" class="textbox" name="encryptedTicketTextbox" id="encryptedTicketTextbox" />
+            </div>
+
+            <div class="question">
+              <label class="leftLabel" for="decryptedTicketTextbox">Decrypted Ticket#: </label
+              ><input type="text" class="textbox" name="decryptedTicketTextbox" id="decryptedTicketTextbox" />
+            </div>
+
+            <div class="question">
+              <label class="leftLabel" for="targetLink">Target URL: </label
+              ><input type="text" class="textbox" name="targetLink" id="targetLinkTextbox" value="https://www.hktdc.com?ticket="/>
+            </div>
+
+            <div id="downloadExcelAlertPlaceholder"></div>
+
+            <div class="generateButtonContainer">
+
+              <button id="closeExcelButton" type="button" class="btn btn-danger">Close Excel</button>
+
+
+              <button id="downloadExcelButton" type="button" class="btn btn-success">Download Excel</button>
+
+            <button id="decryptButton" type="button" class="btn btn-secondary">
+              Decrypt
+            </button>
+
+            
+            <button id="generateButton" type="button" class="btn btn-primary">
+              Generate URL
+            </button>
+
+
+
+          </div>
+
+            <div id="spreadsheetContainer"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

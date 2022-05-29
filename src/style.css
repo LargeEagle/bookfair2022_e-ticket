@@ -1,0 +1,52 @@
+div#mainContent {
+  /* max-width: 500px; */
+  width: 90%;
+  height: auto;
+  margin: auto;
+  margin-top: 20px;
+}
+
+textarea#originalCode {
+  width: 100%;
+  margin-top: 40px;
+}
+
+div#excelSection {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+div.question {
+  display: flex;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+input.textbox {
+  width: 70%;
+}
+
+label{
+  white-space:nowrap;
+  margin: auto;
+}
+
+label.leftLabel{
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  width: 30%;
+}
+
+div.generateButtonContainer{
+display: flex;
+flex-direction: row-reverse;
+}
+
+div.generateButtonContainer > button{
+  margin: 0.5rem;
+  /* flex-direction: column; */
+  }
+
+  button.hide{
+    display: none;
+  }
