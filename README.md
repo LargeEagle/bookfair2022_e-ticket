@@ -1,5 +1,14 @@
 # bookfair2022_e-ticket
 
+## introduce:
+
+This programme is helping hong kong book fair user to genreate ton of unique links to display qrcode for admission.<br><br>
+qrocde verifly method with provide by book fair's vendor.
+
+
+
+
+
 
 demo link: <br />
 https://portal3auat.hktdc.com/faho/book/e-ticket/  <br />
