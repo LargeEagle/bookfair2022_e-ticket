@@ -1,12 +1,12 @@
 
 
-## introduce:
+## Introduce:
 
 This programme is helping hong kong book fair user to genreate ton of unique links to display ticket number as qrcode for admission.<br>
 ticket formular will provide by book fair's vendor.
 
 
-## reference :
+## Reference :
 
 ticket formular:<br>
 [TicketFormular-20220519.docx](https://github.com/LargeEagle/bookfair2022_e-ticket/files/11316623/TicketFormular-20220519.docx)
@@ -28,7 +28,7 @@ https://portal3auat.hktdc.com/vingai/landing/eticket/index_v2.html?ticket=c56da7
 
 
 
-## step:
+## Step:
 
 1. Upload the excel files:
 ![image info](https://portal3auat.hktdc.com/faho/book/e-ticket/guideline/step01.png)
