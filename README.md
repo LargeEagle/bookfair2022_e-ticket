@@ -1,13 +1,15 @@
-# bookfair2022_e-ticket
+
 
 ## introduce:
 
-This programme is helping hong kong book fair user to genreate ton of unique links to display qrcode for admission.<br><br>
-qrocde verifly method with provide by book fair's vendor.
+This programme is helping hong kong book fair user to genreate ton of unique links to display ticket number as qrcode for admission.<br>
+ticket formular will provide by book fair's vendor.
 
 
+## reference :
 
-
+ticket formular:<br>
+[TicketFormular-20220519.docx](https://github.com/LargeEagle/bookfair2022_e-ticket/files/11316623/TicketFormular-20220519.docx)
 
 
 demo link: <br />
@@ -20,7 +22,13 @@ https://portal3auat.hktdc.com/faho/book/e-ticket/guideline/test_sample_ticket.xl
 https://portal3auat.hktdc.com/faho/book/e-ticket/guideline/test_sample_ticket(60%20thousand%20data).xlsx
 
 
+ticket sample:<br>
+https://portal3auat.hktdc.com/vingai/landing/eticket/index_v2.html?ticket=c56da7e697138acda64bc1498433
 
+
+
+
+## step:
 
 1. Upload the excel files:
 ![image info](https://portal3auat.hktdc.com/faho/book/e-ticket/guideline/step01.png)
