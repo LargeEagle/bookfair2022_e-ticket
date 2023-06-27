@@ -12,9 +12,6 @@ ticket formular:<br>
 [TicketFormular-20220519.docx](https://github.com/LargeEagle/bookfair2022_e-ticket/files/11316623/TicketFormular-20220519.docx)
 
 
-demo link: <br />
-https://portal3auat.hktdc.com/faho/book/e-ticket/  <br />
-https://portal3auat.hktdc.com/faho/book/e-ticket/v2/index.html
 
 
 test excel sample:  <br />
